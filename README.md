@@ -3,6 +3,10 @@
 
 Una muestra de mi trayectoria como desarrolladora web. Este proyecto fue creado para compartir mis habilidades, proyectos y formas de contacto de manera simple y profesional.
 
+> **Crédito del diseño**:  
+> El diseño de este portafolio se inspiró en el proyecto de Behance:  
+> [Portfolio website for front-end developer](https://www.behance.net/gallery/162243505/Portfolio-website-forfront-end-developer?tracking_source=search_projects|Front+end+portfolio&l=2)
+
 ---
 
 ## 🖥️ Características del Portafolio
@@ -29,6 +33,8 @@ Una muestra de mi trayectoria como desarrolladora web. Este proyecto fue creado 
 - HTML5  
 - CSS3  
 
+---
+
 ## 🖼️ Vista previa del portafolio
 
 Puedes visitar mi portafolio en este enlace:  
@@ -44,3 +50,7 @@ Si deseas explorar el código o usarlo como base para tu propio portafolio:
    ```bash
    git clone https://github.com/RoNoel22/Portafolio-Web.git
 
+---
+
+## 🤝 Conéctate conmigo
+- [Linkedin](https://www.linkedin.com/in/roc%C3%ADo-noel/)
