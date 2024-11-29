@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: white;
+  background-color: black;
+  width: 100vw;
+}
+
+.header-clase {
+  width: 100%;
+  gap: 9.375%;
+  height: 137px;
+  display: flex;
+  align-items: start;
+  background-color: inherit;
+  margin: 0 auto;
+
+}
+
+header .logo {
+  margin-left: 19.5%;
+  margin-top: 46px;
+  line-height: 45px;
+  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.navegacion {
+  margin-top: 59px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.navegacion ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.navegacion ul a {
+  text-decoration: none;
+  color: white;
+  width: 73px;
+  height: 30px;
+  gap: 3px;
+}
+.contacto-redes{
+  display: flex;
+  margin-top:55px;
+  width: 10%;
+  justify-content: space-evenly;
+}
+
+.icono-red-linkedin{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: black;
+  outline:none;
+  border: none;
+  text-decoration: none;
+  background-size: cover;
+  background-image: url(../img/icono-redes-linkedin.png);
+}
+
+.icono-red-facebook{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: black;
+  border: black;
+  text-decoration: none;
+  background-size: cover;
+  background-image: url(../img/icono-redes-facebook.png);
+}
+
+.icono-red-instagram{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-color: black;
+  border: none;
+  text-decoration: none;
+  background-size: cover;
+  background-image: url(../img/icono-redes-instagram.png);
+}
+  
+.hero {
+  display: flex;
+  align-items: start;
+  justify-content:flex-start;
+  flex-wrap: no-wrap; /* Permite que los elementos se acomoden mejor en pantallas pequeñas */
+  width: 60.26%;
+  height: 30.93vw;
+
+  margin: 0 auto;
+  margin-top: 111px;
+  }
+
+.hero-text {
+  width: 638px;
+  height: 192px;
+  font-weight: 600;
+  display: inline-flex;
+  text-align: left;
+}
+
+.hero-text h3 {
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3.33vw;
+  line-height: 5vw;
+  font-weight: 600;
+  text-align: start;
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6); /* Tu gradiente */
+  -webkit-background-clip: text; /* Aplica el gradiente al texto */
+  -webkit-text-fill-color: transparent; /* Hace el texto transparente */
+}
+
+h1 span {
+  background: none;
+  -webkit-background-clip: unset; /* Asegúrate de que no aplique el gradiente */
+  -webkit-text-fill-color: white; 
+  color: white;
+}
+
+.hero-text p {
+  margin-bottom: 30px;
+  color: inherit;
+  color: #929EB0;
+}
+
+.img-radius{
+  border-bottom-left-radius: 30%;
+  border-radius: 200px;
+}
+  
+.hero-image { /*vh: view height (altura de la pantalla), vw: view width */
+  height: 15.6vw;
+  width: 15.6vw;
+  position: relative;
+  border-radius: 300px;
+  display: flex;
+  justify-content: center; /* Centra la imagen */
+  z-index: 0;
+}
+
+.hero-image img{
+  width: 100%;
+  height: 100%;
+}
+
+/*.hero-image::after{ 
+  content:'';
+  display: block;
+  width: 80%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  background-color: rgba(141, 205, 224, 0.285);
+  border-bottom-left-radius: 30%;
+  top: -5%;
+  left:15%;
+}*/
+  
+section h2 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1d9787;
+}
+
+section p, section ul {
+  color: inherit;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe7e9;
+  color: inherit;
+}
+
+.btn {
+  text-decoration: none;
+  height: 4.06vw;
+  width: 14vw;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6);    
+  color: inherit;
+  padding: 10% 20%;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;    
+}
+
+.btn-card{
+  width: 50%;
+}
+
+.boton-trasparente {
+  background-color: transparent; /* Hace el fondo del botón transparente */
+  color: black; /* Color del texto */
+  border: 2px solid black; /* Define un borde negro */
+  padding: 10px 20px; /* Espaciado dentro del botón */
+  font-size: 16px; /* Tamaño del texto */
+  border-radius: 5px; /* Esquinas redondeadas, opcional */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  text-decoration: none;
+  margin: 3rem;
+  
+}
+
+.boton-trasparente:hover {
+  background-color: black; /* Fondo negro al pasar el ratón */
+  color: rgb(255, 255, 255); /* Texto blanco al pasar el ratón */
+}
+
+.contenedor {
+  color:inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: start; /* Centra los elementos horizontalmente */
+  gap: 10px;
+}
+
+.project{
+  margin: 0 auto;
+  width: 61%;
+  height: 81.35vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.project h2{
+  display: block;
+  width: 9.79vw;
+  height: 3.59vw;
+  font-size: 2.39vw;
+  color: white;
+  line-height: 3.59vw;
+}
+
+.row-project{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5vw;
+  margin-top: 25px;
+}
+
+.project-card {
+  position: relative;
+  background: black;  /* Fondo blanco o el color que prefieras para la tarjeta */
+  display: flex;
+  flex-direction: column;
+  height: 36.4vw;
+  width: 29.68vw;
+  border-radius: 15px;  /* Redondeo de bordes de la tarjeta interna */
+  overflow: hidden;  /* Esto asegura que los bordes redondeados no se corten */
+  z-index: 0;  /* Asegura que el contenido esté por encima del pseudo-elemento */
+  border: 1px blueviolet solid; /* El gradiente de color para el borde */
+  border-radius: 25px; 
+}
+
+
+.project-description{
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 25vw;
+  height: 5.93vw;
+}
+
+.project-description h3{
+  font-size: 1.5625vw;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.project-description p{
+  color:#929EB0;
+  font-size: 0.9375vw;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.project-btn{
+  position:absolute;
+  display: flex;
+  top:82.4%;
+  margin-left: 7.9%;
+  width: 25vw;
+  height: 4.0625vw;
+}
+
+.btn-live{
+  position: absolute;
+  height: 100%;
+  width: 11.19vw;
+}
+
+.btn-live button{
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.btn-test {
+  position: absolute;
+  height: 100%;
+  left:47.26%;
+  width: 13.28125vw;
+  background-color: transparent;
+}
+
+.btn-test button{
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 27px;
+  font-weight: 600;
+} 
+
+.back-transparent{
+  background-color: black;
+  color: inherit;
+  border: 1.2px white solid;
+  padding: 10% 20%;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;    
+  width: 100%;
+}
+
+.project-img{
+  margin: 0 auto;
+  width: 25vw;
+  height: 13.28vw;
+  margin-top: 7%;
+  background-color: black;
+}
+
+p{
+  max-width: 60ch;
+}
+.about-timeline-container {
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 10px;
+  margin: 150px 0;
+}
+
+.about-title {
+  display: block;
+  align-self: self-start;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  margin-left: 20%;
+}
+
+.about-timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+}
+
+.about-timeline::before {
+  content: "";
+  position: absolute;
+  top: 28%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00aaff;
+}
+
+.about-timeline-item {
+  text-align: center;
+  position: relative;
+  flex: 1;
+  
+}
+
+.about-timeline-dot {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6);
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  z-index: 2;
+}
+
+.about-timeline-date {
+  font-weight: bold;
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+.about-timeline-content {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.6;
+  padding: 0 10px;
+  color: #929EB0;
+}
+
+
+.botones {
+  display: flex;
+  gap: 90px;
+}
+
+
+.btn-secondary {
+  background-color: #fff;
+  color: #0e0c0c;
+  border: 2px solid #30878a;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 0;
+  margin-left: 19%;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tech-icon img{
+  scale: 0.7;
+  margin-top: 30px;
+}
+
+.tech-icon:hover {
+  transform: scale(1.1);
+}
+
+.tech-icon span {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 20px;
+}
+
+.titulo-habilidades{
+  margin: 0 auto;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 100px;
+}
+
+.titulo-habilidades h2 {
+  font-size: 2.3rem;
+}
+
+.footer-clase {
+  width: 100%;
+  gap: 6%;
+  height: 137px;
+  display: flex;
+  align-items: start;
+  background-color: inherit;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 110px;
+
+}
+
+footer .logo{
+  background: linear-gradient(#13ADC7, #6978D1, #945DD6); /* Tu gradiente */
+  -webkit-background-clip: text; /* Aplica el gradiente al texto */
+  -webkit-text-fill-color: transparent; /* Hace el texto transparente */ 
+  font-size: 18px;
+}
+
+footer > *{
+  display:flex;
+  margin-top: 55px;
+}
